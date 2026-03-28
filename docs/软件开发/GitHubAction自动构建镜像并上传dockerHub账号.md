@@ -33,7 +33,3 @@ steps:
 - name: push.sh image
   run: docker push.sh qianfuxin/${{ secrets.IMAGE_NAME }}:latest
 ```
-
-## 配置页面
-
-![](/images/GitHubAction自动构建镜像并上传dockerHub账号.png)

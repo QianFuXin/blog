@@ -2,7 +2,7 @@
 tags: ["python", "whisper", "ollama"]
 ---
 
-# 服务部署
+# pythonGUI实现大模型流式对话_whisper_ollama
 
 ## 部署whisper api服务
 

@@ -1,12 +1,13 @@
 ---
 tags: ["windows", "go"]
 ---
+# windows配置go
 
-# 安装
+## 安装
 
 [官网](https://go.dev/dl/)
 
-# 环境变量
+## 环境变量
 
 已默认配置好
 
@@ -14,7 +15,7 @@ tags: ["windows", "go"]
 
 - 默认的goroot是安装的位置
 
-# goland开启demo
+## goland开启demo
 
 - 新建go项目
 - 安装包

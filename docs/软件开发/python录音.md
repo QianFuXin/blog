@@ -2,7 +2,7 @@
 tags: ["python", "录音"]
 ---
 
-# 代码
+# python录音
 
 ```python
 
@@ -115,7 +115,7 @@ tags: ["python", "录音"]
     recorder.close()
 ```
 
-# 环境
+##  环境
 
     python3.10
 

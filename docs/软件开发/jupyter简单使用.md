@@ -1,10 +1,10 @@
 ---
-tags: ["jupyte"]
+tags: ["jupyter"]
 ---
 
 # jupyter简单使用
 
-## 安装
+## docker安装
 
 ```bash
 version: '3'
@@ -19,23 +19,11 @@ services:
       - /Users/qianfuxin/dc/jupyter1:/home/jovyan/work
 ```
 
-# 汉化
-
 ```bash
 !pip install jupyterlab-language-pack-zh-CN
 ```
 
-刷新页面
-
-![jupyter简单使用_1.png](/images/jupyter简单使用_1.png)
-
-# 代码提示
-
-![jupyter简单使用_2.png](/images/jupyter简单使用_2.png)
-
-# 本机安装
-
-## 1. 安装 JupyterLab
+## 本机安装
 
 ### 使用 pip 安装
 
@@ -51,7 +39,7 @@ conda install -c conda-forge jupyterlab notebook
 
 ---
 
-## 2. 生成配置文件
+### 2. 生成配置文件
 
 ```bash
 jupyter notebook --generate-config
@@ -65,9 +53,9 @@ jupyter notebook --generate-config
 
 ---
 
-## 3. 设置密码
+### 3. 设置密码
 
-### 进入 Python 环境
+#### 进入 Python 环境
 
 ```python
 from jupyter_server.auth import passwd
@@ -82,7 +70,7 @@ passwd()
 
 ---
 
-## 4. 修改配置文件
+### 4. 修改配置文件
 
 编辑配置文件：
 
@@ -101,7 +89,7 @@ c.ServerApp.port = 8888                    # 指定端口
 
 ---
 
-## 5. 安装中文语言包（可选）
+### 5. 安装中文语言包（可选）
 
 ```bash
 pip install jupyterlab-language-pack-zh-CN
@@ -109,7 +97,7 @@ pip install jupyterlab-language-pack-zh-CN
 
 ---
 
-## 6. 后台运行 JupyterLab
+### 6. 后台运行 JupyterLab
 
 使用 `nohup` 后台运行：
 
@@ -118,15 +106,3 @@ nohup jupyter lab --allow-root > jupyter.log 2>&1 &
 ```
 
 日志会输出到 `jupyter.log` 文件。
-
----
-
-## 7. 访问 JupyterLab
-
-在浏览器中访问：
-
-```
-http://服务器IP:8888
-```
-
-输入配置的密码即可登录。

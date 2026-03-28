@@ -2,7 +2,7 @@
 tags: ["vault"]
 ---
 
-# 开启服务
+# vault基本使用及部署
 
 ```shell
 docker run -d --restart=always  \
@@ -12,8 +12,6 @@ docker run -d --restart=always  \
   -e VAULT_DEV_LISTEN_ADDRESS=0.0.0.0:8200 \
   hashicorp/vault:1.15
 ```
-
-# 基本操作
 
 ## 检测服务
 

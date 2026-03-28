@@ -2,7 +2,9 @@
 tags: ["transformer", "微调"]
 ---
 
-# 微调
+# transformer微调及后续推理
+
+## 微调
 
 ```python
 
@@ -53,7 +55,7 @@ trainer.save_model("path/to/save/folder")
 
 ```
 
-# 使用微调模型推理
+## 使用微调模型推理
 
 ```python
 from transformers import pipeline

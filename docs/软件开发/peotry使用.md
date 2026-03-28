@@ -2,7 +2,7 @@
 tags: ["peotry"]
 ---
 
-# Python 包管理与发布工具笔记
+# peotry使用
 
 ## 一、Poetry 基础操作
 

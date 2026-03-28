@@ -2,7 +2,7 @@
 tags: ["python", "sqlalchemy"]
 ---
 
-# 代码
+# sqlalchemy操作数据库
 
 ```python
 import time

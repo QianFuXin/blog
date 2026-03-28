@@ -1,8 +1,9 @@
 ---
 tags: ["python", "rabbitMQ"]
 ---
+# rabbitMQ的配置及python调用
 
-# 配置rabbitMQ
+## 配置rabbitMQ
 
 ```bash
 version: '3.8'
@@ -21,7 +22,7 @@ services:
       - /dc/rabbitmq:/var/lib/rabbitmq
 ```
 
-# 生产者
+## 生产者
 
 ```python
 import pika
@@ -45,7 +46,7 @@ for i in range(100):
 connection.close()
 ```
 
-# 消费者
+## 消费者
 
 ```python
 import pika

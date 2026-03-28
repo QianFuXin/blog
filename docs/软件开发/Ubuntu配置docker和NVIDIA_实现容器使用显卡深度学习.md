@@ -1,7 +1,9 @@
 ---
-
 ## tags: [ "深度学习","Ubuntu","docker","NVIDIA" ]
+---
 
+# Ubuntu配置docker和NVIDIA_实现容器使用显卡深度学习
+>
 > Ubuntu 20.04.6 LTS
 
 - 安装英伟达驱动
@@ -76,7 +78,7 @@ source .bashrc
 nvcc -V
 ```
 
-链接：https://pan.baidu.com/s/1fV51Kho4hy6S9irSO7YKUw  
+链接：<https://pan.baidu.com/s/1fV51Kho4hy6S9irSO7YKUw>  
 提取码：zt3v  
 -来自百度网盘超级会员V5的分享
 

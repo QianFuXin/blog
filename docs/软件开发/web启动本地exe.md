@@ -1,8 +1,9 @@
 ---
 tags: ["exe", "web", "注册表"]
 ---
+# web启动本地exe
 
-# 生成注册表文件（shell.bat）
+## 生成注册表文件（shell.bat）
 
 **注意：exe文件需要和shell.bat在同一目录下，且不要轻易更换exe的路径和名称。**
 
@@ -44,7 +45,7 @@ echo "OK!"
 pause
 ```
 
-# 使用
+## 使用
 
 **双击shell.bat生成register.reg，双击register.reg即可完成注册** 。
 

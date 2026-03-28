@@ -18,8 +18,6 @@ rtmp://qianfuxin.com/live
 livestream
 ```
 
-![](/images/img_6.png)
-
 ## flv.js获取流
 
 ```html

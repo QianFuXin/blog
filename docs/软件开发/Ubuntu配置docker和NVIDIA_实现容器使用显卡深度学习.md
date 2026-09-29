@@ -1,5 +1,5 @@
 ---
-## tags: [ "深度学习","Ubuntu","docker","NVIDIA" ]
+tags: [ "深度学习","Ubuntu","docker","NVIDIA" ]
 ---
 
 # Ubuntu配置docker和NVIDIA_实现容器使用显卡深度学习
